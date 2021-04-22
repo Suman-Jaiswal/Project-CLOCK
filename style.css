@@ -1,0 +1,60 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: center / cover no-repeat url('/img/tengyart-SYtyoEuhPuk-unsplash.jpg');
+  background-size: 100%;
+ 
+}
+.container {
+  position: relative;
+  border-radius: 500px;
+  width: 40vw;
+  height: 40vw;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  background: center / cover no-repeat url('/img/clock-without-hands.jpg') ;
+  background-size: 100%;
+}
+.hand {
+ 
+  position: absolute;
+  border-radius: 20px;
+}
+#hr {
+   background-color: rgb(122, 50, 50);
+  width: 1.5%;
+  height: 22%;
+  top: 29%;
+  left: 49.4%;
+  transform-origin: bottom;
+}
+#min {
+  background-color: rgb(14, 14, 197);
+   /* display: none; */
+  width: 1%;
+  height: 31%;
+  top: 19.5%;
+  left: 49.8%;
+  transform-origin: bottom;
+}
+#sec {
+  background-color: rgb(122, 180, 5);
+ /* display: none; */
+  width: 0.7%;
+  height: 37%;
+  top: 13.5%;
+  left: 50%;
+  transform-origin: bottom;
+}
+#dot {
+  position: absolute;
+  background-color: black;
+  height: 6%;
+  width: 6%;
+  border-radius: 100px;
+  top: 47.5%;
+  left: 47.5%;
+}
