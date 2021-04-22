@@ -3,7 +3,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: center / cover no-repeat url('/img/tengyart-SYtyoEuhPuk-unsplash.jpg');
+  background: center / cover no-repeat url('/img/bg.jpg');
   background-size: 100%;
  
 }
@@ -15,7 +15,7 @@ body {
   margin: auto;
   margin-top: 10px;
   text-align: center;
-  background: center / cover no-repeat url('/img/clock-without-hands.jpg') ;
+  background: center / cover no-repeat url('/img/clock.jpg') ;
   background-size: 100%;
 }
 .hand {
